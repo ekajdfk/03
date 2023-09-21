@@ -4,13 +4,10 @@
 int main(int argc, char *argv[])
 {
   char c;
-  int i;
-  
-  printf("input a number : ");
+  printf("input a character : ");
   scanf("%c", &c);
   
-  i=c-'0';
-  printf("The number is %i\n", i);
+  printf("the next character of %c is %c\n", c, c+1);
   
   system("PAUSE");	
   return 0;
