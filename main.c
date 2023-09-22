@@ -3,12 +3,16 @@
 
 int main(int argc, char *argv[])
 {
-  char c;
-  printf("input a character : ");
-  scanf("%c", &c);
+  float a, b;
   
-  printf("the next character of %c is %c\n", c, c+1);
+  printf("input a number : ");
+  scanf("%f", &a);
   
+  printf("input a number : ");
+  scanf("%f", &b);
+  
+  printf("%f\n", a/b);
+   
   system("PAUSE");	
   return 0;
 }
